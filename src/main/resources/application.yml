@@ -9,6 +9,7 @@ spring:
     password: 14789632
     driver-class-name: com.mysql.jdbc.Driver
     type: org.apache.commons.dbcp2.BasicDataSource
+    #这个type必须指定，否则会抛出： org.springframework.jdbc.CannotGetJdbcConnectionException:  Failed  to  obtain  JDBC  Connection;
 eureka:
   client:
     service-url:
